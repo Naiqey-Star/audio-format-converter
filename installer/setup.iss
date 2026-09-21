@@ -9,7 +9,7 @@
 
 #define MyAppName "转转"
 #define MyAppVersion "2.0.0"
-#define MyAppPublisher "Yachiyo"
+#define MyAppPublisher "Naiqey.千鵺"
 #define MyAppExeName "转转.exe"
 ; installer\ 的上一级即仓库根目录
 #define RepoRoot AddBackslash(SourcePath) + ".."

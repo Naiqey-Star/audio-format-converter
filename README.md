@@ -253,4 +253,4 @@ audio-format-converter/
 
 ---
 
-<sub>作者：Yachiyo</sub>
+<sub>作者：Naiqey.千鵺</sub>
