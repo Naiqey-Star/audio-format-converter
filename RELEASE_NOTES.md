@@ -21,15 +21,16 @@
 
 | 文件 | 大小 | 说明 |
 | --- | --- | --- |
-| `转转_Setup_2.0.0.exe` | 85 MB | **安装包（推荐）**——双击即装，**不需要管理员权限** |
-| `转转_2.0.0_绿色版.zip` | 83 MB | **免安装绿色版**——解压即可运行，适合放 U 盘 / 不想写注册表 |
-| `RELEASE_2.0.0.sha256` | 182 B | 上述两个文件的 SHA256 校验值 |
+| `ZhuanZhuan_Setup_2.0.0.exe` | 85 MB | **安装包（推荐）**——双击即装，**不需要管理员权限** |
+| `ZhuanZhuan_2.0.0_portable.zip` | 83 MB | **免安装绿色版**——解压即可运行，适合放 U 盘 / 不想写注册表 |
+| `RELEASE_2.0.0.sha256` | 189 B | 上述两个文件的 SHA256 校验值 |
 
 包内已含 Python 运行时与 **ffmpeg**，目标机器不需要额外安装任何东西。
+（`ZhuanZhuan` 是「转转」的拼音，用作文件名以保证各系统下载兼容。）
 
 ```
-185093b367bb26a2b354f03ad221fffd061f3791bd98899a8c0a85737abe2196  转转_Setup_2.0.0.exe
-f15e3b7b7732c7dcb6d57edb1ec95e1210e34f29929e6b7d8e066003cc4aa819  转转_2.0.0_绿色版.zip
+185093b367bb26a2b354f03ad221fffd061f3791bd98899a8c0a85737abe2196  ZhuanZhuan_Setup_2.0.0.exe
+f15e3b7b7732c7dcb6d57edb1ec95e1210e34f29929e6b7d8e066003cc4aa819  ZhuanZhuan_2.0.0_portable.zip
 ```
 
 ### 校验下载文件
@@ -41,14 +42,14 @@ sha256sum -c RELEASE_2.0.0.sha256
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\转转_Setup_2.0.0.exe -Algorithm SHA256
+Get-FileHash .\ZhuanZhuan_Setup_2.0.0.exe -Algorithm SHA256
 ```
 
 ---
 
 ## 🚀 安装与使用
 
-1. 双击 `转转_Setup_2.0.0.exe` 完成安装（装到用户目录，不弹 UAC）
+1. 双击 `ZhuanZhuan_Setup_2.0.0.exe` 完成安装（装到用户目录，不弹 UAC）
 2. 开始菜单打开 **转转** → 右下角出现托盘图标
 3. 在设置窗口里**勾选要监听的平台**并确认下载目录（常见路径会自动填好）
 4. 点「保存」——之后就不用管了
