@@ -1,0 +1,21 @@
+# 转转 — 运行 / 打包所需依赖
+#
+# 只想用成品的话不需要装这些：Releases 里的安装包已经打好所有依赖。
+# 下面这份清单是给「从源码运行」或「自己重新打包」用的。
+#
+#   pip install -r requirements.txt
+#   python build.py
+
+# GUI（系统托盘 + 设置窗口）
+PySide6>=6.6.0
+
+# 多平台加密音频解密（NCM / QMC / KGM / KWM）
+# 作者声明本项目的接口按 2.1.1+ 编写
+libtakiyasha>=2.1.1
+
+# NCM 解密（AES-128-ECB）与 FLAC/MP3 元数据写入
+pycryptodome>=3.20.0
+pyaes>=1.6.1
+
+# 音频标签（标题/艺术家/封面）读写
+mutagen>=1.47.0

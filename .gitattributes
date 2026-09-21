@@ -1,0 +1,17 @@
+# 统一换行，避免 Windows 下整文件 diff 噪音
+* text=auto eol=lf
+
+# Windows 脚本与安装器保持 CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+*.iss  text eol=crlf
+
+# 二进制
+*.exe  binary
+*.png  binary
+*.ico  binary
+*.zip  binary
+
+# 语言标注（影响 GitHub 语言统计）
+*.py  linguist-language=Python
